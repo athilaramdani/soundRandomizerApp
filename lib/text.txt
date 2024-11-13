@@ -1,0 +1,31 @@
+saya punya aplikasi sound randomizer, di category_page yaitu tempat untuk membuat category dimana satu category dijadikan widget menjadi category_tile dan category_page berisi beberapa jumlah dari kategori yang dibuat yaitu category_tile, dan di soundpack_page adalah tempat untuk menyimpan beberapa sound dan dapat di putar random dengan mengklik soundpacknya, dan di sound_page adalah lagu atau sound bisa diputar masing masing didalam soundpack.
+
+misalkan
+nama kategorinya : cartoon
+soundpack pada kategori cartoon : boing, run, comedy
+sound pada soundpack boing : owewew.wav, boing 1.mp3, boing 2.mp3
+sound pada soundpack run : laritomandjerry.mp3, run1.mp3, yiubruit.wav
+sound pada soundpack comedy : hahaha.mp3, yiha.mp3, ohno.wav
+
+ini adalah versi yang saya pakai
+```
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  file_picker: ^8.0.0+1
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.3
+  image_picker: ^1.0.8
+  url_launcher: ^6.3.0
+  google_mobile_ads: ^5.1.0
+  flutter_sound: ^9.6.0
+  path_provider: ^2.1.3
+  flutter_ffmpeg: ^0.4.2
+```
+ini adalah file beserta directory folder nya yang berada dalam directory "lib" pada flutter dart android studio
